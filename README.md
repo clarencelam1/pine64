@@ -11,10 +11,10 @@ Steps:
 5. Open a terminal
 6. Run the following commands the burn the ubuntu image onto the SD card:
 
-```
-diskutil unmountDisk /dev/disk2
-sudo dd if=pine64-image-ubuntubase-31065bsp-longsleep.img of=/dev/disk2 bs=1m
-```
+  ```
+  diskutil unmountDisk /dev/disk2
+  sudo dd if=pine64-image-ubuntubase-31065bsp-longsleep.img of=/dev/disk2 bs=1m
+  ```
 
 7. After the image is done burning onto the SD card, remove it and insert it into the SD card slot of the pine64.
 8. Plug in all peripherals (mouse, keyboard, HDMI) and ethernet for the pine64.
