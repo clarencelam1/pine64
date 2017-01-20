@@ -47,5 +47,35 @@ Steps:
   reboot
   ```
 
-16. After rebooting, login and get root access again by repeating steps 10 - 14
+16. After rebooting, login and get root access again by repeating steps 10 - 14.
+17. Following the directions on https://www.pine64.pro/desktop-environment-on-ubuntu/ or, they will be listed here again for convince.
+18. To update to the latest package lists and upgrade to them, enter the following commands into the console:
 
+  ```
+  apt-get update
+  apt-get upgrade
+  apt-get install dialog tasksel
+  tasksel
+  ```
+
+19. After the desktop is installed, to enable features like 2d acceleration, video hardware decoding and resolution switching, enter the following commands:
+
+  ```
+  apt-get install libump libvdpau-sunxi1 libcedrus1 sunxi-disp-tool xserver-xorg-video-fbturbo
+  echo 'Section "Device"' > /etc/X11/xorg.conf
+  echo 'Identifier "Allwinner A10/A13 FBDEV"' >> /etc/X11/xorg.conf
+  echo 'Driver "fbturbo"' >> /etc/X11/xorg.conf
+  echo 'Option "fbdev" "/dev/fb0"' >> /etc/X11/xorg.conf
+  echo 'Option "SwapbuffersWait" "true"' >> /etc/X11/xorg.conf
+  echo 'EndSection' >> /etc/X11/xorg.conf
+  reboot
+  ```
+
+20. Optional but useful addons to install as well:
+
+  ```
+  apt-get install midori
+  apt-get install clamtk
+  apt-get install gparted
+  apt-get install synaptic
+  ```
