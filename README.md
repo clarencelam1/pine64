@@ -79,3 +79,16 @@ Steps:
   apt-get install gparted
   apt-get install synaptic
   ```
+
+21. Set your board's locale by following the instructions at:
+
+http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
+
+22. Install pip3
+
+  ```
+  sudo apt-get update && sudo apt-get -y upgrade
+  sudo apt-get install python3-pip
+  pip -V
+  ```
+  
