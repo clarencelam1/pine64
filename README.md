@@ -84,11 +84,12 @@ Steps:
 
   http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
 
-22. Install pip3
+22. Install pip3 and upgrade to the latest version of pip3:
 
   ```
   sudo apt-get update && sudo apt-get -y upgrade
   sudo apt-get install python3-pip
   pip3 -V
+  pip3 install --upgrade pip
   ```
   
