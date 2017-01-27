@@ -71,14 +71,17 @@ Steps:
   reboot
   ```
 
-20.1 Install en_US locale first
+20.1 Install en_US locale first:
+
   ```
   sudo locale-gen en_US en_US.UTF-8
   sudo dpkg-reconfigure locales 
   ```
+  
 add to .bashrc file
 
   `export LC_ALL="en_US.UTF-8"`
+  
 20. Optional but useful addons to install as well:
 
   ```
