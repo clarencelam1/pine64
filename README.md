@@ -71,18 +71,18 @@ Steps:
   reboot
   ```
 
-20.1 Install en_US locale first:
+20. Install en_US locale first:
 
   ```
   sudo locale-gen en_US en_US.UTF-8
   sudo dpkg-reconfigure locales 
   ```
   
-20.2 add to .bashrc file:
+21. add to .bashrc file:
 
   `export LC_ALL="en_US.UTF-8"`
   
-20. Optional but useful addons to install as well:
+22. Optional but useful addons to install as well:
 
   ```
   apt-get install midori
@@ -91,11 +91,11 @@ Steps:
   apt-get install synaptic
   ```
 
-21. Set your board's locale by following the instructions at:
+23. Set your board's locale by following the instructions at:
 
   http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
 
-22. Install pip3 and upgrade to the latest version of pip3:
+24. Install pip3 and upgrade to the latest version of pip3:
 
   ```
   sudo apt-get update && sudo apt-get -y upgrade
