@@ -78,9 +78,7 @@ Steps:
   sudo dpkg-reconfigure locales 
   ```
   
-21. add to .bashrc file:
 
-  `export LC_ALL="en_US.UTF-8"`
   
 22. Optional but useful addons to install as well:
 
