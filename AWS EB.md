@@ -101,10 +101,10 @@ Steps:
   
 24. Go to https://docs.djangoproject.com/en/1.10/intro/contributing/ and start wit thhe command:
 
-`curl -O https://bootstrap.pypa.io/get-pip.py`
+  `curl -O https://bootstrap.pypa.io/get-pip.py`
 
 25. I above commands fail, try:
 
-`python3 get-pip.py --user`
+  `python3 get-pip.py --user`
 
 26. Follow instructions from https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html
