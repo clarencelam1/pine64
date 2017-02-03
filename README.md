@@ -78,8 +78,6 @@ Steps:
   sudo dpkg-reconfigure locales 
   ```
   
-
-  
 21. Optional but useful addons to install as well:
 
   ```
@@ -105,7 +103,7 @@ Steps:
 
 ```
 mkdir ~/.virtualenvs
-python3 -m venv ~/.virtualenvs/djangodev```
+python3 -m venv ~/.virtualenvs/djangodev
 ```
 25. I above commands fail, try:
 
