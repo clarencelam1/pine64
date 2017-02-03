@@ -80,7 +80,7 @@ Steps:
   
 
   
-22. Optional but useful addons to install as well:
+21. Optional but useful addons to install as well:
 
   ```
   apt-get install midori
@@ -89,11 +89,10 @@ Steps:
   apt-get install synaptic
   ```
 
-23. Insall gitih te following command:
-
+22. Insall gitih te following command:
   `apt-get install git`
   
-24. Install pip3 and upgrade to the latest version of pip3:
+23. Install pip3 and upgrade to the latest version of pip3:
 
   ```
   sudo apt-get update && sudo apt-get -y upgrade
