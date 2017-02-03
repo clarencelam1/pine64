@@ -105,17 +105,17 @@ Steps:
   
 24. Go to https://docs.djangoproject.com/en/1.10/intro/contributing/ and start wit thhe command:
 
-```
-mkdir ~/.virtualenvs
-python3 -m venv ~/.virtualenvs/djangodev
-```
+  ```
+  mkdir ~/.virtualenvs
+  python3 -m venv ~/.virtualenvs/djangodev
+  ```
 25. I above commands fail, try:
 
-```
-$ sudo apt-get install python3-pip
-$ # Prefix the next command with sudo if it gives a permission denied error
-$ pip3 install virtualenv
-$ virtualenv --python=`which python3` ~/.virtualenvs/djangodev
-```
+  ```
+  $ sudo apt-get install python3-pip
+  $ # Prefix the next command with sudo if it gives a permission denied error
+  $ pip3 install virtualenv
+  $ virtualenv --python=`which python3` ~/.virtualenvs/djangodev
+  ```
 26. Activate it:
-`source ~/.virtualenvs/djangodev/bin/activate`
+  `source ~/.virtualenvs/djangodev/bin/activate`
