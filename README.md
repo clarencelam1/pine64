@@ -103,13 +103,7 @@ Steps:
   pip3 install --upgrade pip
   ```
   
-24. Go to https://docs.djangoproject.com/en/1.10/intro/contributing/ and start wit thhe command:
-
-  ```
-  mkdir ~/.virtualenvs
-  python3 -m venv ~/.virtualenvs/djangodev
-  ```
-25. I above commands fail, try:
+24. Go to https://docs.djangoproject.com/en/1.10/intro/contributing/ enter the following commands:
 
   ```
   $ sudo apt-get install python3-pip
@@ -117,5 +111,13 @@ Steps:
   $ pip3 install virtualenv
   $ virtualenv --python=`which python3` ~/.virtualenvs/djangodev
   ```
+  
 26. Activate it:
   `source ~/.virtualenvs/djangodev/bin/activate`
+
+
+27. Install virutalenvwrapper:
+
+  ```
+  export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.5
+  ```
