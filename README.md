@@ -89,10 +89,10 @@ Steps:
   apt-get install synaptic
   ```
 
-23. Set your board's locale by following the instructions at:
+23. Insall gitih te following command:
 
-  http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
-
+  `apt-get install git`
+  
 24. Install pip3 and upgrade to the latest version of pip3:
 
   ```
