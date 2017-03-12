@@ -5,11 +5,11 @@ Steps:
 
 1. Download pine64-image-ubuntubase-31065bsp-longsleep.img from https://www.pine64.pro/getting-started-linux/ (https://www.pine64.pro/download.php?option=download&optionid=33)
 
-2. Put SD into android mobile device (Samsung S4) and format the SD card
+2. Insert SD card into android mobile device (Samsung S4) and format the SD card.
 3. Insert SD card into a USB card reader.
 4. Insert USB card reader into MacBook Pro.
-5. Open a terminal
-6. Run the following commands the burn the ubuntu image onto the SD card:
+5. Open a terminal.
+6. Run the following commands to burn the ubuntu image onto the SD card:
 
   ```
   diskutil unmountDisk /dev/disk2
@@ -28,7 +28,7 @@ Steps:
   `ubuntu`
 
 
-12. Type in the following into the console get sudo access:
+12. Type in the following into the console to get sudo access:
 
   `sudo -i`
 
@@ -38,7 +38,7 @@ Steps:
 
 14. You should now see the `root@localhost:~` prompt once you have root access.
 
-15. Type in the following into the console to update uboot, update kernel and resize the rootfs. Reboot the board with the last command listed after resizing the rootfs.
+15. Type in the following commands into the console to update uboot, update kernel and resize the rootfs. Reboot the board with the last command listed after resizing the rootfs.
 
   ```
   /usr/local/sbin/pine64_update_uboot.sh
@@ -91,7 +91,8 @@ Steps:
   apt-get install synaptic
   ```
 
-22. Insall gitih te following command:
+22. Insall git with the following command:
+
   `apt-get install git`
   
 23. Install pip3 and upgrade to the latest version of pip3:
@@ -102,4 +103,3 @@ Steps:
   pip3 -V
   pip3 install --upgrade pip
   ```
-  
