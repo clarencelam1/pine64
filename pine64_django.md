@@ -10,11 +10,12 @@ Following setup 23 from pine64_setup.md:
   ```
   
 2. Activate it:
-  `source ~/.virtualenvs/djangodev/bin/activate`
+
+  `$ source ~/.virtualenvs/djangodev/bin/activate`
 
 
 3. Install virutalenvwrapper:
 
   ```
-  export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.5
+  $ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.5
   ```
