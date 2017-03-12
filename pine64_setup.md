@@ -21,20 +21,28 @@ Steps:
 9. Power up the pine64.
 10. Once the `localhost login:` prompt shows up, type in:
 
-  `$ ubuntu`
+  ```
+  $ ubuntu
+  ```
 
 11. Once the `Password:` prompt shows up, type in:
 
-  `$ ubuntu`
+  ```
+  $ ubuntu
+  ```
 
 
 12. Type in the following into the console to get sudo access:
 
-  `$ sudo -i`
+  ```
+  $ sudo -i
+  ```
 
 13. Once the `[sudo] password for ubuntu:` prompt shows up, type in:
 
-  `$ ubuntu`
+  ```
+  $ ubuntu
+  ```
 
 14. You should now see the `root@localhost:~` prompt once you have root access.
 
@@ -93,7 +101,9 @@ Steps:
 
 22. Insall git with the following command:
 
-  `$ apt-get install git`
+  ```
+  $ apt-get install git
+  ```
   
 23. Install pip3 and upgrade to the latest version of pip3:
 
