@@ -12,7 +12,7 @@ Then you should get:
 
 `$ node -v`
 
-v6.4.0
+v6.10.0
 
 `$ npm -v`
 
