@@ -10,7 +10,7 @@ sudo rm CHANGELOG.md LICENSE README.md
 
 Then you should get:
 
-# node -v
+$ node -v
 v6.4.0
-# npm -v
+$ npm -v
 3.10.3
