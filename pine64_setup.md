@@ -1,5 +1,5 @@
 # pine64
-This repo holds instructions for flashing an OS onto and SD card for the pine64
+This repo holds instructions for flashing an OS onto an SD card for the pine64
 
 Steps:
 
