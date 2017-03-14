@@ -101,10 +101,10 @@ Steps:
 
 22. Insall git with the following command:
 
-  ```
+  ```
   $ apt-get install git
   ```
-  
+
 23. Install pip3 and upgrade to the latest version of pip3:
 
   ```
