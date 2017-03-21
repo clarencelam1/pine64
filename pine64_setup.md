@@ -91,16 +91,17 @@ Steps:
   $ sudo dpkg-reconfigure locales 
   ```
   
-22. Optional but useful addons to install as well:
+22. Optional but useful addons to install as well. We will need root access first:
 
   ```
+  $ sudo -i
   $ apt-get install midori
   $ apt-get install clamtk
   $ apt-get install gparted
   $ apt-get install synaptic
   ```
 
-23. Insall git with the following command:
+23. Install git with the following command:
 
   ```
   $ apt-get install git
