@@ -1,4 +1,4 @@
-Following step 23 from pine64_setup.md:
+Following step 24 from pine64_setup.md:
 
 ```
 $ wget https://nodejs.org/dist/v6.10.0/node-v6.10.0-linux-x64.tar.xz
