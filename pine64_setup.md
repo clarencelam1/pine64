@@ -65,8 +65,9 @@ Steps:
   $ apt-get install dialog tasksel
   $ tasksel
   ```
+19. We will choose Ubuntu MATE desktop in this example
 
-19. After the desktop is installed, to enable features like 2d acceleration, video hardware decoding and resolution switching, enter the following commands:
+20. After the desktop is installed, to enable features like 2d acceleration, video hardware decoding and resolution switching, enter the following commands:
 
   ```
   $ apt-get install libump libvdpau-sunxi1 libcedrus1 sunxi-disp-tool xserver-xorg-video-fbturbo
@@ -79,7 +80,7 @@ Steps:
   $ reboot
   ```
 
-20. Install en_US locale first:
+21. Install en_US locale first:
 
   ```
   $ sudo locale-gen en_US en_US.UTF-8
@@ -90,7 +91,7 @@ Steps:
   $ sudo dpkg-reconfigure locales 
   ```
   
-21. Optional but useful addons to install as well:
+22. Optional but useful addons to install as well:
 
   ```
   $ apt-get install midori
@@ -99,13 +100,13 @@ Steps:
   $ apt-get install synaptic
   ```
 
-22. Insall git with the following command:
+23. Insall git with the following command:
 
   ```
   $ apt-get install git
   ```
 
-23. Install pip3 and upgrade to the latest version of pip3:
+24. Install pip3 and upgrade to the latest version of pip3:
 
   ```
   $ sudo apt-get update && sudo apt-get -y upgrade
