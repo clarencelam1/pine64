@@ -1,4 +1,4 @@
-Following setup 23 from pine64_setup.md:
+Following setup 24 from pine64_setup.md:
 
 1. Go to https://docs.djangoproject.com/en/1.10/intro/contributing/ enter the following commands:
 
